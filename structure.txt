@@ -1,0 +1,72 @@
+crowdfunding-platform/
+│
+├── public/
+│   └── index.html
+│
+├── src/
+│   ├── components/
+│   │   ├── Profile.jsx
+│   │   ├── StartupCard.jsx
+│   │   ├── Navbar.jsx
+│   │   └── Footer.jsx
+│   ├── pages/
+│   │   ├── Login.jsx
+│   │   ├── Main.jsx
+│   │   ├── AddStartup.jsx
+│   │   ├── Revenue.jsx
+│   │   └── SuperAdmin.jsx
+│   ├── App.jsx
+│   ├── index.js
+│   └── styles/
+│       ├── Login.css
+│       ├── Main.css
+│       ├── AddStartup.css
+│       ├── Revenue.css
+│       └── SuperAdmin.css
+│
+├── package.json
+└── .env
+
+
+
+crowdfunding-project/
+│
+├── frontend/
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Profile.jsx
+│   │   │   ├── StartupCard.jsx
+│   │   │   ├── Navbar.jsx
+│   │   │   └── Footer.jsx
+│   │   ├── pages/
+│   │   │   ├── Login.jsx
+│   │   │   ├── Main.jsx
+│   │   │   ├── AddStartup.jsx
+│   │   │   ├── Revenue.jsx
+│   │   │   └── SuperAdmin.jsx
+│   │   ├── App.jsx
+│   │   ├── index.js
+│   │   ├── firebase.js
+│   │   └── styles/
+│   │       ├── Login.css
+│   │       ├── Main.css
+│   │       ├── AddStartup.css
+│   │       ├── Revenue.css
+│   │       └── SuperAdmin.css
+│   ├── package.json
+│   └── .env
+│
+└── backend/
+    ├── controllers/
+    │   └── startupController.js
+    ├── routes/
+    │   └── startupRoutes.js
+    ├── config/
+    │   └── firebaseAdmin.js
+    ├── models/
+    │   └── startupModel.js
+    ├── server.js
+    ├── .env
+    └── package.json
